@@ -45,9 +45,12 @@ input[type=email]{
     height: 50px;
     left: calc(50% - 200px/2 + 1px);
     top: calc(50% - 50px/2 - 61px);
-
     background: rgba(44, 46, 49, 0.76);
     border-radius: 38px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
     
 }
 
@@ -58,9 +61,12 @@ input[type=password]{
     height: 50px;
     left: calc(50% - 200px/2 + 1px);
     top: calc(50% - 50px/2 + 10px);
-
     background: rgba(44, 46, 49, 0.76);
     border-radius: 38px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
 }
 
 input[type=submit]{
@@ -114,5 +120,3 @@ a {
 a:hover {
     color: red;
 }
-
-
