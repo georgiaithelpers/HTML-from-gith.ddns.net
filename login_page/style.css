@@ -1,0 +1,118 @@
+/* Author: Georgia IT Helpers */
+body {
+    margin: 0;
+    padding: 0;
+    }
+    html {
+        background: url(https://www.autoitscript.com/forum/uploads/monthly_2020_03/tech.gif.7449db47191b0e32967887c117908b3c.gif) no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+      }
+
+.login {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: calc(50% - 600px/2 + 6px);
+    top: calc(50% - 400px/2 - 5px);
+    background: rgba(96, 110, 132, 0.76);
+    border-radius: 38px;
+    color: white;
+}
+
+h2{
+    position: absolute;
+    width: 61px;
+    height: 28px;
+    left: calc(50% - 61px/2 + 1.5px);
+    top: calc(50% - 28px/2 - 137px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+  
+}
+
+input[type=email]{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: calc(50% - 200px/2 + 1px);
+    top: calc(50% - 50px/2 - 61px);
+
+    background: rgba(44, 46, 49, 0.76);
+    border-radius: 38px;
+    
+}
+
+
+input[type=password]{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: calc(50% - 200px/2 + 1px);
+    top: calc(50% - 50px/2 + 10px);
+
+    background: rgba(44, 46, 49, 0.76);
+    border-radius: 38px;
+}
+
+input[type=submit]{
+    position: absolute;
+    width: 131px;
+    height: 31px;
+    left: calc(50% - 131px/2 + 3.5px);
+    top: calc(50% - 31px/2 + 71.5px);
+    background: rgba(44, 46, 49, 0.76);
+    border-radius: 38px;
+}
+input[type=submit]:hover{
+    background-color: rgba(5, 252, 5, 0.507);
+    color:white;
+    transition: 0.55ms;
+}
+*::placeholder {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    position: absolute;
+    width: 199px;
+    height: 12px;
+    left: calc(50% - 199px/2 + 35.5px);
+    top: calc(50% - 12px/2 + 120px);
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    display: flexbox;
+    align-items: center;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+*:focus {
+    outline: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+a {
+    text-decoration: none;
+    color:white;
+    
+}
+a:hover {
+    color: red;
+}
+
+
